@@ -9,7 +9,7 @@ export default function Hero() {
         {/* Shrunk the top badge for mobile */}
         <div className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-5 py-1.5 md:py-2 bg-[#0284C7]/10 text-[#0284C7] rounded-full font-bold text-[10px] md:text-sm mb-5 md:mb-7 border border-[#0284C7]/20 shadow-[0_0_15px_rgba(2,132,199,0.1)]">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="md:w-4 md:h-4"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-          Authorised Dealer & Distributor for 23+ brands
+          Authorised Dealer & Distributor of 23+ brands
         </div>
         
         {/* Scaled down the H1 for mobile, kept 7xl for desktop */}
