@@ -1,6 +1,6 @@
 "use client";
-
 import { motion } from "framer-motion";
+import { ArrowUpRight } from "lucide-react";
 
 export default function BentoGrid() {
   const categories = [
@@ -20,48 +20,57 @@ export default function BentoGrid() {
     { title: "Resistors", img: "/categories/resistor.png", colSpan: "md:col-span-1" },
     { title: "Couplers", img: "/categories/coupler.png", colSpan: "md:col-span-2" },
   ];
+
   return (
-    <section id="categories" className="py-16 sm:py-24 px-4 sm:px-6 max-w-7xl mx-auto relative z-10 w-full">
-      <div className="mb-10 sm:mb-16 text-center">
-        <span className="inline-block text-[#0284C7] font-bold text-xs sm:text-sm uppercase tracking-widest mb-3 px-3 py-1 bg-[#0284C7]/10 rounded-md">
-          Catalog
+    <section id="categories" className="py-12 md:py-24 px-4 md:px-6 max-w-7xl mx-auto relative z-10 w-full scroll-mt-24">
+      <div className="mb-10 md:mb-16 text-center">
+        <span className="inline-block text-[#0284C7] font-bold text-xs md:text-sm uppercase tracking-widest mb-3 px-3 py-1 bg-[#0284C7]/10 rounded-md">
+          Our Inventory
         </span>
-        <h2 className="text-3xl sm:text-5xl font-extrabold text-slate-900 font-[family-name:var(--font-jakarta)]">
-          Shop by part category
+        <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 font-[family-name:var(--font-jakarta)]">
+          Shop by Category
         </h2>
       </div>
-      
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 auto-rows-[160px] gap-4 sm:gap-5">
+
+      <motion.div 
+        initial="hidden" 
+        whileInView="visible" 
+        viewport={{ once: true, margin: "-50px" }}
+        variants={{ visible: { transition: { staggerChildren: 0.08 } } }}
+        className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6"
+      >
         {categories.map((cat, i) => (
-          <motion.div
-            key={i}
-            whileHover={{ scale: 1.02, y: -4 }}
-            whileTap={{ scale: 0.98 }}
-            className={`glass-panel rounded-[20px] p-5 sm:p-6 relative overflow-hidden flex flex-col justify-end group transition-colors duration-300 hover:border-[#0284C7] interactive cursor-pointer ${cat.span}`}
+          <motion.div 
+            key={i} 
+            variants={{
+              hidden: { opacity: 0, y: 25 },
+              visible: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100 } }
+            }}
+            whileHover={{ y: -5 }}
+            className={`glass-panel p-4 md:p-6 rounded-[24px] relative overflow-hidden group border hover:border-[#0284C7] transition-all cursor-pointer interactive bg-white/40 shadow-sm flex flex-col justify-between min-h-[170px] md:min-h-[220px] ${cat.colSpan}`}
           >
-            {/* Image container with quiet fallback */}
-            <div className="absolute right-2 bottom-2 w-28 h-28 sm:w-36 sm:h-36 opacity-75 group-hover:opacity-100 transition-all duration-300 pointer-events-none flex items-end justify-end">
+            <div className="absolute inset-0 flex items-center justify-center p-6 md:p-8 z-0">
               <img 
-                src={`/categories/${cat.file}`} 
-                alt=""
-                className="w-full h-full object-contain"
-                onError={(e) => {
-                  e.currentTarget.style.display = "none";
+                src={cat.img} 
+                alt={cat.title} 
+                className="w-full h-full object-contain mix-blend-multiply opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
+                onError={(e) => { 
+                  e.currentTarget.style.display = 'none'; 
                 }}
               />
             </div>
 
-            <div className="z-10 relative">
-              <h3 className="text-lg sm:text-xl font-bold mb-1 font-[family-name:var(--font-jakarta)] text-slate-900 leading-tight">
+            <div className="relative z-10 mt-auto flex items-end justify-between w-full">
+              <h3 className="text-sm md:text-lg font-bold text-slate-900 bg-white/75 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-white/60 shadow-sm">
                 {cat.title}
               </h3>
-              <p className="text-[#0284C7] font-bold text-xs tracking-wide uppercase">
-                {cat.desc}
-              </p>
+              <div className="w-8 h-8 md:w-9 md:h-9 rounded-full bg-white flex items-center justify-center text-slate-400 group-hover:bg-[#0284C7] group-hover:text-white transition-colors shadow-sm shrink-0 ml-2">
+                <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5" />
+              </div>
             </div>
           </motion.div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 }
