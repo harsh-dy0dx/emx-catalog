@@ -18,8 +18,7 @@ export default function BentoGrid() {
   { title: "Refrigerant Gases", img: "/categories/refrigerant.png", colSpan: "md:col-span-1" },
   { title: "Compressor Oil", img: "/categories/compressoroil.png", colSpan: "md:col-span-1" },
   { title: "Resistors", img: "/categories/resistor.png", colSpan: "md:col-span-1" },
-  { title: "Couplers", img: "/categories/coupler.png", colSpan: "md:col-span-2" },
-  { title: "Fuses", img: "/categories/fuse.png", colSpan: "md:col-span-1" },];
+  { title: "Couplers", img: "/categories/coupler.png", colSpan: "md:col-span-2" },];
 
   return (
     <section id="categories" className="py-12 md:py-24 px-4 md:px-6 max-w-7xl mx-auto relative z-10 w-full scroll-mt-24">
