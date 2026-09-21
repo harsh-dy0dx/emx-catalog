@@ -2,24 +2,23 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
-export default function BentoGrid() {
-  const categories = [
-    { title: "Compressors", img: "/categories/compressor.png", colSpan: "md:col-span-2" },
-    { title: "Condensers", img: "/categories/condensor.png", colSpan: "md:col-span-1" },
-    { title: "Evaporators", img: "/categories/evaporator.png", colSpan: "md:col-span-1" },
-    { title: "Blower Motors", img: "/categories/blowermotor.png", colSpan: "md:col-span-1" },
-    { title: "Compressor Clutches", img: "/categories/compressorclutch.png", colSpan: "md:col-span-1" },
-    { title: "Control Valves", img: "/categories/control%20valve.png", colSpan: "md:col-span-2" },
-    { title: "Expansion Valves", img: "/categories/expansionvalve.png", colSpan: "md:col-span-1" },
-    { title: "Condenser Fans", img: "/categories/condenserfan.png", colSpan: "md:col-span-1" },
-    { title: "Heating Coils", img: "/categories/heatingcoil.png", colSpan: "md:col-span-1" },
-    { title: "HVAC Hoses", img: "/categories/hvachose.png", colSpan: "md:col-span-1" },
-    { title: "Radiators", img: "/categories/radiator.png", colSpan: "md:col-span-1" },
-    { title: "Refrigerant Gases", img: "/categories/refrigerant.png", colSpan: "md:col-span-1" },
-    { title: "Compressor Oil", img: "/categories/compressoroil.png", colSpan: "md:col-span-1" },
-    { title: "Resistors", img: "/categories/resistor.png", colSpan: "md:col-span-1" },
-    { title: "Couplers", img: "/categories/coupler.png", colSpan: "md:col-span-2" },
-  ];
+const categories = [
+  { title: "Compressors", img: "/categories/compressor.png", colSpan: "md:col-span-2" },
+  { title: "Condensers", img: "/categories/condensor.PNG", colSpan: "md:col-span-1" },
+  { title: "Evaporators", img: "/categories/evaporator.PNG", colSpan: "md:col-span-1" },
+  { title: "Blower Motors", img: "/categories/blowermotor.png", colSpan: "md:col-span-1" },
+  { title: "Compressor Clutches", img: "/categories/compressorclutch.png", colSpan: "md:col-span-1" },
+  { title: "Control Valves", img: "/categories/control%20valve.PNG", colSpan: "md:col-span-2" },
+  { title: "Expansion Valves", img: "/categories/expansionvalve.png", colSpan: "md:col-span-1" },
+  { title: "Condenser Fans", img: "/categories/condenserfan.PNG", colSpan: "md:col-span-1" },
+  { title: "Heating Coils", img: "/categories/heatingcoil.png", colSpan: "md:col-span-1" },
+  { title: "HVAC Hoses", img: "/categories/hvachose.png", colSpan: "md:col-span-1" },
+  { title: "Radiators", img: "/categories/radiator.png", colSpan: "md:col-span-1" },
+  { title: "Refrigerant Gases", img: "/categories/refrigerant.png", colSpan: "md:col-span-1" },
+  { title: "Compressor Oil", img: "/categories/compressoroil.png", colSpan: "md:col-span-1" },
+  { title: "Resistors", img: "/categories/resistor.PNG", colSpan: "md:col-span-1" },
+  { title: "Couplers", img: "/categories/Coupler.PNG", colSpan: "md:col-span-2" },
+];
 
   return (
     <section id="categories" className="py-12 md:py-24 px-4 md:px-6 max-w-7xl mx-auto relative z-10 w-full scroll-mt-24">
