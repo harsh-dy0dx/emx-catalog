@@ -1,3 +1,8 @@
+// Auto-generated from Excel uploads. Do not edit by hand.
+// Source files:
+//   01.Subros new update (01-09-2026) O.NAME.xlsx
+//   02.Mahle Behr CPSP (01-09-26).xlsx
+
 export type PartCategory =
   | "AC Kit"
   | "Blower Motor"
@@ -253,7 +258,7 @@ export const CATALOG_PARTS: Part[] = [
   { brand: "Subros", category: "Heater", partNumber: "616410-0770-1-H", suitableFor: "Alto K10" },
   { brand: "Subros", category: "Heater", partNumber: "616410-1180-1-H", suitableFor: "Alto K-10 2010-2012" },
   { brand: "Subros", category: "Heater", partNumber: "616410-1351-2-H", suitableFor: "Alto LH" },
-  { brand: "Subros", category: "Heater", partNumber: "116420-7121-0-H", suitableFor: "A-Star" },
+    { brand: "Subros", category: "Heater", partNumber: "116420-7121-0-H", suitableFor: "A-Star" },
   { brand: "Subros", category: "Heater", partNumber: "116420-9290-0-H", suitableFor: "Baleno-(P/D)-AT/ML" },
   { brand: "Subros", category: "Heater", partNumber: "116420-8560-0-H", suitableFor: "Ciaz(D/P)-AT/ML" },
   { brand: "Subros", category: "Heater", partNumber: "616410-0270-0-H", suitableFor: "Eeco/Versa" },
@@ -388,7 +393,6 @@ export const CATALOG_PARTS: Part[] = [
   { brand: "Subros", category: "Radiator", partNumber: "422135-9701-0-H", suitableFor: "Vitara Brezza Dsl" },
   { brand: "Subros", category: "Radiator", partNumber: "422136-8460-0-H", suitableFor: "Vitara Brezza Ptl 1st Gen" },
   { brand: "Subros", category: "Radiator", partNumber: "422136-8470-0-HZ", suitableFor: "Vitara Brezza." },
-  { brand: "Subros", category: "Blower Motor", partNumber: "#", suitableFor: "Suitable for", remark: "Remark" },
   { brand: "Subros", category: "Blower Motor", partNumber: "662500-1520-3-L", suitableFor: "800 / Alto K-10" },
   { brand: "Subros", category: "Blower Motor", partNumber: "116360-7430-0-H", suitableFor: "Alto 800 / K-10" },
   { brand: "Subros", category: "Blower Motor", partNumber: "116360-7960-0-H", suitableFor: "Brezza / Baleno / Swift Dzire" },
@@ -513,7 +517,7 @@ export const CATALOG_PARTS: Part[] = [
   { brand: "Subros", category: "Misc", partNumber: "613300-0020-0-H", suitableFor: "Solenoid Valve (R Flow Control) With BKT" },
   { brand: "Subros", category: "Misc", partNumber: "613300-0030-0-H", suitableFor: "Solenoid Valve W/BKT" },
   { brand: "Subros", category: "Misc", partNumber: "047810-4060-0-D", suitableFor: "Tank Receiver" },
-  { brand: "Subros", category: "Misc", partNumber: "447810-0051-1-H", suitableFor: "Tank Receiver (FF) ( For Manesar )" },
+    { brand: "Subros", category: "Misc", partNumber: "447810-0051-1-H", suitableFor: "Tank Receiver (FF) ( For Manesar )" },
   { brand: "Subros", category: "Misc", partNumber: "447810-0051-2-H", suitableFor: "Tank Receiver (FF) ( For Pune)" },
   { brand: "Subros", category: "Misc", partNumber: "447810-0450-1-H", suitableFor: "Tank Receiver Assy ( Model LD8I)" },
   { brand: "Subros", category: "Misc", partNumber: "447810-0131-1-H", suitableFor: "Tank Receiver Assy ( Model O2)" },
@@ -773,7 +777,7 @@ export const CATALOG_PARTS: Part[] = [
   { brand: "Mahle Behr", category: "Blower Motor", partNumber: "LN203001", suitableFor: "Truck", mrp: 4800 },
   { brand: "Mahle Behr", category: "Blower Motor", partNumber: "HM412001", suitableFor: "Truck", mrp: 4300 },
   { brand: "Mahle Behr", category: "Blower Motor", partNumber: "TN564001", suitableFor: "Tuv 300/Marazzo", mrp: 2114 },
-  { brand: "Mahle Behr", category: "Blower Motor", partNumber: "SW693001", suitableFor: "Urbania F", mrp: 3040 },
+    { brand: "Mahle Behr", category: "Blower Motor", partNumber: "SW693001", suitableFor: "Urbania F", mrp: 3040 },
   { brand: "Mahle Behr", category: "Blower Motor", partNumber: "RP833001", suitableFor: "Urbania R", mrp: 4200 },
   { brand: "Mahle Behr", category: "Blower Motor", partNumber: "ME253001", suitableFor: "Vista/Nexon", mrp: 3802 },
   { brand: "Mahle Behr", category: "Blower Motor", partNumber: "TN565001", suitableFor: "Xylo", mrp: 2278 },
