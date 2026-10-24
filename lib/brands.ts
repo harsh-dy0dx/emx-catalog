@@ -25,7 +25,7 @@ export const BRANDS: Brand[] = [
   {
     slug: "mahle-behr",
     name: "Mahle Behr",
-    logo: "/brands/mahle-behr.png",
+    logo: "/brands/mahle.png",
     tagline:
       "German engineering from the MAHLE Group. Premium compressors, condensers, radiators, and thermal management systems for passenger and commercial vehicles.",
     origin: "MAHLE Group · Germany",
