@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Marquee from "../components/Marquee";
-import QuickEnquiry from "../components/QuickEnquiry"; // <-- The new top banner!
+import QuickEnquiry from "../components/QuickEnquiry";
 import BentoGrid from "../components/BentoGrid";
 import ShopByBrand from "../components/ShopByBrand";
 import InteractiveCatalog from "../components/InteractiveCatalog";
@@ -17,7 +17,6 @@ export default function Home() {
       <Hero />
       <Marquee />
 
-      {/* Quick Enquiry is now front and center at the top! */}
       <QuickEnquiry />
 
       <BentoGrid />
@@ -29,7 +28,6 @@ export default function Home() {
       <TrackOrder />
       <Reviews />
 
-      {/* About Section is safely tucked at the bottom before Contact */}
       <AboutSection />
 
       <ContactInfo />
