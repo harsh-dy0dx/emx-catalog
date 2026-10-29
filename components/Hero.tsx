@@ -14,7 +14,7 @@ export default function Hero() {
         
         {/* Scaled down the H1 for mobile, kept 7xl for desktop */}
         <h1 className="text-4xl md:text-7xl font-extrabold leading-[1.1] mb-4 md:mb-6 text-slate-900 font-[family-name:var(--font-jakarta)] tracking-tight">
-          Car AC parts you can trust, <br />
+          Car AC Parts you can trust, <br />
           <span className="bg-gradient-to-br from-[#0284C7] to-[#38BDF8] bg-clip-text text-transparent">since 1986.</span>
         </h1>
         
