@@ -22,13 +22,21 @@ export const BRANDS: Brand[] = [
       "India's largest manufacturer of automotive air-conditioning systems. OEM supplier to Maruti Suzuki, Tata Motors, Mahindra, Honda, and more.",
     origin: "Founded 1985 · OEM Supplier",
   },
-  {
+    {
     slug: "mahle-behr",
     name: "Mahle Behr",
     logo: "/brands/mahle.png",
     tagline:
       "German engineering from the MAHLE Group. Premium compressors, condensers, radiators, and thermal management systems for passenger and commercial vehicles.",
     origin: "MAHLE Group · Germany",
+  },
+  {
+    slug: "hanon",
+    name: "Hanon",
+    logo: "/brands/hanon.png",
+    tagline:
+      "Korean thermal systems specialist (Hanon Systems). OEM-grade compressors, condensers, evaporators, and HVAC modules for Hyundai, Kia, and global passenger vehicles.",
+    origin: "Hanon Systems · South Korea",
   },
 ];
 
