@@ -1,7 +1,4 @@
-// Auto-generated from Excel uploads. Do not edit by hand.
-// Source files:
-//   01.Subros new update (01-09-2026) O.NAME.xlsx
-//   02.Mahle Behr CPSP (01-09-26).xlsx
+import { HANON_PARTS } from "./brands/hanon";
 
 export type PartCategory =
   | "AC Kit"
@@ -24,8 +21,10 @@ export type PartCategory =
   | "Resistor";
 
 export type BrandName =
+  | "Hanon"
   | "Mahle Behr"
   | "Subros";
+
 
 export interface Part {
   brand: BrandName;
@@ -1014,6 +1013,7 @@ export const CATALOG_PARTS: Part[] = [
   { brand: "Mahle Behr", category: "AC Kit", partNumber: "NM630001", suitableFor: "Roof AC Kit Double Cab - 12V", mrp: 16500 },
   { brand: "Mahle Behr", category: "AC Kit", partNumber: "NM625001", suitableFor: "Roof AC Kit Double Cab - 24V", mrp: 17980 },
   { brand: "Mahle Behr", category: "AC Kit", partNumber: "NM626001", suitableFor: "Roof AC Kit Single Cab - 12V", mrp: 15300 },
+  ...HANON_PARTS,
 ];
 
 export const CATEGORIES: PartCategory[] = [
@@ -1038,6 +1038,7 @@ export const CATEGORIES: PartCategory[] = [
 ];
 
 export const BRANDS_WITH_PARTS: BrandName[] = [
+  "Hanon",
   "Mahle Behr",
   "Subros",
 ];
