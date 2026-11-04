@@ -38,6 +38,14 @@ export const BRANDS: Brand[] = [
       "Korean thermal systems specialist (Hanon Systems). OEM-grade compressors, condensers, evaporators, and HVAC modules for Hyundai, Kia, and global passenger vehicles.",
     origin: "Hanon Systems · South Korea",
   },
+  {
+    slug: "doowon",
+    name: "Doowon",
+    logo: "/brands/doowon.png",
+    tagline:
+      "Korean thermal systems manufacturer (Doowon). OEM-grade compressors, condensers, evaporators, radiators, and HVAC components for Hyundai, Kia, and global passenger vehicles.",
+    origin: "Doowon · South Korea",
+  },
 ];
 
 /** Map slug → brand */
