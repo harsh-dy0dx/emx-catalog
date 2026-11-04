@@ -1,13 +1,16 @@
+import { DOOWON_PARTS } from "./brands/doowon";
 import { HANON_PARTS } from "./brands/hanon";
 
 export type PartCategory =
   | "AC Kit"
   | "Blower Motor"
+  | "Cabin Filter"
   | "Charge Air Cooler"
   | "Clutch Assembly"
   | "Compressor"
   | "Condenser"
   | "Condenser Fan"
+  | "Control Valve"
   | "Coolant"
   | "Evaporator"
   | "Expansion Valve"
@@ -18,10 +21,12 @@ export type PartCategory =
   | "Radiator Core"
   | "Radiator Fan Assy"
   | "Radiator Fan Motor"
+  | "Radiator Shroud"
   | "Resistor";
 
 export type BrandName =
   | "Hanon"
+  | "Doowon"
   | "Mahle Behr"
   | "Subros";
 
@@ -1014,16 +1019,19 @@ export const CATALOG_PARTS: Part[] = [
   { brand: "Mahle Behr", category: "AC Kit", partNumber: "NM625001", suitableFor: "Roof AC Kit Double Cab - 24V", mrp: 17980 },
   { brand: "Mahle Behr", category: "AC Kit", partNumber: "NM626001", suitableFor: "Roof AC Kit Single Cab - 12V", mrp: 15300 },
   ...HANON_PARTS,
+  ...DOOWON_PARTS,
 ];
 
 export const CATEGORIES: PartCategory[] = [
   "AC Kit",
   "Blower Motor",
+  "Cabin Filter",
   "Charge Air Cooler",
   "Clutch Assembly",
   "Compressor",
   "Condenser",
   "Condenser Fan",
+  "Control Valve",
   "Coolant",
   "Evaporator",
   "Expansion Valve",
@@ -1034,11 +1042,13 @@ export const CATEGORIES: PartCategory[] = [
   "Radiator Core",
   "Radiator Fan Assy",
   "Radiator Fan Motor",
+  "Radiator Shroud",
   "Resistor",
 ];
 
 export const BRANDS_WITH_PARTS: BrandName[] = [
   "Hanon",
+  "Doowon",
   "Mahle Behr",
   "Subros",
 ];
