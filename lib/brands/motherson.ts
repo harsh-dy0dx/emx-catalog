@@ -1,0 +1,45 @@
+// Motherson parts catalog.
+// Isolated into its own file so future brands can be added
+// without regenerating lib/data.ts.
+
+import type { Part } from "../data";
+
+export const MOTHERSON_PARTS: Part[] = [
+  { brand: "Motherson", category: "Blower Motor", partNumber: "BM-MS001FC", suitableFor: "Celrio (2013-20)" },
+  { brand: "Motherson", category: "Blower Motor", partNumber: "BM-MS002FC", suitableFor: "S-Presso (2019-20)" },
+  { brand: "Motherson", category: "Blower Motor", partNumber: "BM-MS003FC", suitableFor: "Micra / Sunny (2007-20)" },
+  { brand: "Motherson", category: "Blower Motor", partNumber: "BM-MS004FC", suitableFor: "Ritz (P/D)" },
+  { brand: "Motherson", category: "Blower Motor", partNumber: "BM-NS005FC", suitableFor: "XUV 300" },
+  { brand: "Motherson", category: "Clutch Assembly", partNumber: "CM-HO006C", suitableFor: "City" },
+  { brand: "Motherson", category: "Clutch Assembly", partNumber: "CM-MG005C", suitableFor: "Hector" },
+  { brand: "Motherson", category: "Clutch Assembly", partNumber: "CM-MS001CC", suitableFor: "Alto" },
+  { brand: "Motherson", category: "Clutch Assembly", partNumber: "CM-MS002CC", suitableFor: "Ertiga" },
+  { brand: "Motherson", category: "Clutch Assembly", partNumber: "CM-MS003CC", suitableFor: "Ignis" },
+  { brand: "Motherson", category: "Clutch Assembly", partNumber: "CM-MS004CC", suitableFor: "Jimny" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR- NS006FC", suitableFor: "Micra / Sunny (Petrol) (2010-20)" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS001FC", suitableFor: "Ritz (2012-17), WagonR Stingray, Swift (P), Swift Dizer (P) (2007-13), Alto K10 (2014-20)" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS002FC", suitableFor: "Ciaz (Petrol) (T-2) (2018-21)" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS003FC", suitableFor: "Ignis (Petrol) (2016-20)" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS004FC", suitableFor: "S-Presso (Petrol) (2019-20)" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS005FC", suitableFor: "Ertiga / XL6 (Petrol) (2018-20)" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS007FC", suitableFor: "Ciaz DSL 8PK" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS008FC", suitableFor: "Ertiga (Diesel)" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS009FC", suitableFor: "Ertiga (Petrol)" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS010FC", suitableFor: "Alto K10 / S-Presso" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS011FC", suitableFor: "Ignis DSL 4PK" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS012FC", suitableFor: "Ertiga / XL6" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS013FC", suitableFor: "Ciaz / S-Cross" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS014FC", suitableFor: "Jimnie" },
+  { brand: "Motherson", category: "Compressor", partNumber: "CR-MS015FC", suitableFor: "Jimnie (Exp)" },
+  { brand: "Motherson", category: "Evaporator", partNumber: "ES-MM006FC", suitableFor: "XUV 300" },
+  { brand: "Motherson", category: "Evaporator", partNumber: "ES-MS001FC", suitableFor: "RITZ (Petrol)" },
+  { brand: "Motherson", category: "Evaporator", partNumber: "ES-MS002FC", suitableFor: "RITZ (Diesel)" },
+  { brand: "Motherson", category: "Evaporator", partNumber: "ES-NS005FC", suitableFor: "Micra / Sunny (2010-20)" },
+  { brand: "Motherson", category: "Expansion Valve", partNumber: "EV-MM001FC", suitableFor: "XUV 300" },
+  { brand: "Motherson", category: "Heater", partNumber: "HC-MM004FC", suitableFor: "XUV 300" },
+  { brand: "Motherson", category: "Heater", partNumber: "HC-MS001FC", suitableFor: "Ritz (2009-17)" },
+  { brand: "Motherson", category: "Heater", partNumber: "HC-MS002FC", suitableFor: "Celerio (2013-20)" },
+  { brand: "Motherson", category: "Heater", partNumber: "HC-MS003FC", suitableFor: "Micra / Sunny (2010-20)" },
+  { brand: "Motherson", category: "Radiator", partNumber: "RA-DT002FC", suitableFor: "Datsun Go" },
+  { brand: "Motherson", category: "Radiator", partNumber: "RA-NS001FC", suitableFor: "Duster / Terreno / Capture" },
+];
