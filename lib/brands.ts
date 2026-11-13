@@ -44,7 +44,55 @@ export const BRANDS: Brand[] = [
     logo: "/brands/doowon.png",
     tagline:
       "Korean thermal systems manufacturer (Doowon). OEM-grade compressors, condensers, evaporators, radiators, and HVAC components for Hyundai, Kia, and global passenger vehicles.",
-    origin: "Doowon · South Korea",
+        origin: "Doowon · South Korea",
+  },
+  {
+    slug: "banco",
+    name: "Banco",
+    logo: "/brands/banco.png",
+    tagline:
+      "Aluminum condensers and heat exchangers for passenger cars and commercial vehicles.",
+    origin: "Banco · India",
+  },
+  {
+    slug: "delphi",
+    name: "Delphi",
+    logo: "/brands/delphi.png",
+    tagline:
+      "Delphi Automotive thermal components. OE-quality compressors and air-conditioning parts for global vehicle platforms.",
+    origin: "Delphi Technologies · USA",
+  },
+  {
+    slug: "estra",
+    name: "Estra",
+    logo: "/brands/estra.png",
+    tagline:
+      "Automotive AC compressors and thermal management components for passenger and commercial vehicles.",
+    origin: "Estra · India",
+  },
+  {
+    slug: "hyundai",
+    name: "Hyundai",
+    logo: "/brands/hyundai.png",
+    tagline:
+      "Genuine Hyundai OEM parts. Factory-specified compressors, evaporators, heater cores, and HVAC components for Hyundai passenger vehicles.",
+    origin: "Hyundai Motor Company · South Korea",
+  },
+  {
+    slug: "motherson",
+    name: "Motherson",
+    logo: "/brands/motherson.png",
+    tagline:
+      "Motherson Sumi thermal systems. OE-supplier compressors, evaporators, heaters, radiators, and blower motors for Indian and global vehicle platforms.",
+    origin: "Motherson Sumi · India",
+  },
+  {
+    slug: "sanden",
+    name: "Sanden",
+    logo: "/brands/sanden.png",
+    tagline:
+      "Japanese AC compressor specialist (Sanden Corporation). Precision-engineered compressors, condensers, evaporators, and thermal components for global passenger and commercial vehicles.",
+    origin: "Sanden Corporation · Japan",
   },
 ];
 
