@@ -1,0 +1,45 @@
+// Delphi parts catalog.
+// Isolated into its own file so future brands can be added
+// without regenerating lib/data.ts.
+
+import type { Part } from "../data";
+
+export const DELPHI_PARTS: Part[] = [
+  { brand: "Delphi", category: "Compressor", partNumber: "AM 55300294", suitableFor: "UNIVERSAL" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM 55300295", suitableFor: "UNIVERSAL (138CC) 508 (V/G)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM 55302122", suitableFor: "SWIFT DZIRE/RITZ K SERIES (PTL)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM 55302173", suitableFor: "CHEVROLET CRUZE (Diesel)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM 55302231", suitableFor: "INNOVA DOUBLE AC" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM25186527", suitableFor: "CHEVROLET OPTRA COMPRESSOR (V5)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM25186528", suitableFor: "CHEVROLET AVEO COMPRESSOR (V5)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM25187240", suitableFor: "CHEVROLET SPARK (SP-8)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM52491430", suitableFor: "MARUTI ZEN - MPFI(R134a) COMPRESSOR" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55300296", suitableFor: "UNIVERSAL" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55300352", suitableFor: "SWIFT/DZIRE/ESTILO ( PETROL )" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55300576", suitableFor: "SWIFT DZIRE/RITZ/ ERTIGA (Diesel)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55300801", suitableFor: "OCTAVIA (Petrol)/(Diesel)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55300802", suitableFor: "LAURA (Diesel)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55300945", suitableFor: "MERCEDES BENZ (Petrol)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55300970", suitableFor: "UNIVERSAL" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55301145", suitableFor: "INNOVA SINGLE AC- (Diesel 2.5L)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55301148", suitableFor: "COROLLA (Petrol)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55301149", suitableFor: "HONDA CITY TYPE-III (Petrol)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55301150", suitableFor: "SKODA FABIA" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55301592", suitableFor: "CRS70 Comp. for Maruti Alto & Wagon R (old)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55303058", suitableFor: "UNIVERSAL COMP.(108CC) - 507 (M/G)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55303059", suitableFor: "UNIVERSAL COMP.(138CC) - 508 (M/G)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55303060", suitableFor: "UNIVERSAL COMP. (155 CC)- 510" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55303061", suitableFor: "INDICA VISTA QUATRAJET" },
+  { brand: "Delphi", category: "Compressor", partNumber: "AM55303179", suitableFor: "ALTO K-10/ WAGON R/ AStar-125 CC (K series engine)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "CS10098", suitableFor: "BEAT (Petrol)-M300 GSL" },
+  { brand: "Delphi", category: "Compressor", partNumber: "CS20361", suitableFor: "I10 ERA PTL/DSL" },
+  { brand: "Delphi", category: "Compressor", partNumber: "CS20493", suitableFor: "VERNA- PETROL" },
+  { brand: "Delphi", category: "Compressor", partNumber: "CS20563", suitableFor: "i10 GRAND/XCENT (PTL)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "CS20564", suitableFor: "i10 GRAND/XCENT (DSL)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "CS20565", suitableFor: "BOLERO (DSL)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "CS20568", suitableFor: "DUSTER-DIESEL" },
+  { brand: "Delphi", category: "Compressor", partNumber: "CS20586", suitableFor: "POLO/VENTO (DSL)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "CS20589", suitableFor: "CRETA/ELANTRA FLUIDIC (DSL)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "EVAPORATOR", suitableFor: "CHEVROLET AVEO COMPRESSOR (V5)" },
+  { brand: "Delphi", category: "Compressor", partNumber: "TSP0155862", suitableFor: "SP-10 COMPRESSOR- SANTRO/SANTRO XING" },
+];
