@@ -1,5 +1,11 @@
 import { DOOWON_PARTS } from "./brands/doowon";
 import { HANON_PARTS } from "./brands/hanon";
+import { BANCO_PARTS } from "./brands/banco";
+import { DELPHI_PARTS } from "./brands/delphi";
+import { ESTRA_PARTS } from "./brands/estra";
+import { HYUNDAI_PARTS } from "./brands/hyundai";
+import { MOTHERSON_PARTS } from "./brands/motherson";
+import { SANDEN_PARTS } from "./brands/sanden";
 
 export type PartCategory =
   | "AC Kit"
@@ -22,12 +28,18 @@ export type PartCategory =
   | "Radiator Fan Assy"
   | "Radiator Fan Motor"
   | "Radiator Shroud"
+  | "Receiver Drier"
   | "Resistor";
-
 export type BrandName =
-  | "Hanon"
+  | "Banco"
+  | "Delphi"
   | "Doowon"
+  | "Estra"
+  | "Hanon"
+  | "Hyundai"
   | "Mahle Behr"
+  | "Motherson"
+  | "Sanden"
   | "Subros";
 
 
@@ -1020,6 +1032,12 @@ export const CATALOG_PARTS: Part[] = [
   { brand: "Mahle Behr", category: "AC Kit", partNumber: "NM626001", suitableFor: "Roof AC Kit Single Cab - 12V", mrp: 15300 },
   ...HANON_PARTS,
   ...DOOWON_PARTS,
+  ...BANCO_PARTS,
+  ...DELPHI_PARTS,
+  ...ESTRA_PARTS,
+  ...HYUNDAI_PARTS,
+  ...MOTHERSON_PARTS,
+  ...SANDEN_PARTS,
 ];
 
 export const CATEGORIES: PartCategory[] = [
@@ -1043,12 +1061,19 @@ export const CATEGORIES: PartCategory[] = [
   "Radiator Fan Assy",
   "Radiator Fan Motor",
   "Radiator Shroud",
+  "Receiver Drier",
   "Resistor",
 ];
 
 export const BRANDS_WITH_PARTS: BrandName[] = [
-  "Hanon",
+  "Banco",
+  "Delphi",
   "Doowon",
+  "Estra",
+  "Hanon",
+  "Hyundai",
   "Mahle Behr",
+  "Motherson",
+  "Sanden",
   "Subros",
 ];
